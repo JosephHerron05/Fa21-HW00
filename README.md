@@ -19,9 +19,9 @@ Fun fact: if you edit the README.md file on your machine, you can "fill in" the 
   - [X] Compile and test on your machine
   - [ ] **stage**, **commit**, and **push** to GitHub
   - [X] Remember to add header comments to main.cpp (M-x file-doq)
-  - [ ] **stage**, **commit**, and **push** to GitHub (now with comments!)
-- [ ] Celebrate! the completion of HW00!
-- [ ] Extra credit?
+  - [X ] **stage**, **commit**, and **push** to GitHub (now with comments!)
+- [X ] Celebrate! the completion of HW00!
+- [X ] Extra credit?
 
 ## Working with Git :octocat: ##
 <details>
