@@ -6,19 +6,19 @@ Fun fact: if you edit the README.md file on your machine, you can "fill in" the 
 
 - [X] Set up your GitHub account
 - [X] Accept the Classroom Assignment
-- [ ] Get going with Git
-  - [ ] Set up SSH with GitHub
-  - [ ] Create a local directory for your classwork
-  - [ ] **Clone** your class repository
-- [ ] Set up emacs
-  - [ ] Download and place the class .emacs file
-  - [ ] Download and place the doqmnt.el file
-  - [ ] Install company
-- [ ] Practice with emacs && Git
-  - [ ] Add a main() with a "Hello World!" to main.cpp
-  - [ ] Compile and test on your machine
+- [X] Get going with Git
+  - [X] Set up SSH with GitHub
+  - [X] Create a local directory for your classwork
+  - [X] **Clone** your class repository
+- [X] Set up emacs
+  - [X] Download and place the class .emacs file
+  - [X] Download and place the doqmnt.el file
+  - [X] Install company
+- [X] Practice with emacs && Git
+  - [X] Add a main() with a "Hello World!" to main.cpp
+  - [X] Compile and test on your machine
   - [ ] **stage**, **commit**, and **push** to GitHub
-  - [ ] Remember to add header comments to main.cpp (M-x file-doq)
+  - [X] Remember to add header comments to main.cpp (M-x file-doq)
   - [ ] **stage**, **commit**, and **push** to GitHub (now with comments!)
 - [ ] Celebrate! the completion of HW00!
 - [ ] Extra credit?
