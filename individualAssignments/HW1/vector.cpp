@@ -53,7 +53,7 @@ Vector::~Vector(){
 /**
  *Assignment operator, This function allows us so assign one vector to the other 
  */
-Vector& Vector::operator = (const(Vector& other)){
+Vector& Vector::operator = (const Vector&  other){
     if(this != &other){ //self assignment check 
       delete[] vec_ptr; //free memory 
 
@@ -77,8 +77,8 @@ Vector& Vector::operator = (const(Vector& other)){
     return vec_capacity; //returns the vector capacity
   }
 
-  void(Vector::push_back( int element){
-      if(vec_size) = vec_capacity){ //space check
+  void(Vector::push_back)( int element){
+    if(vec_size == vec_capacity){ //space check
       reserve(vec_capacity == 0? 1 : vec_capacity * 2); //Double the capacity 
     }
     vec_ptr[vec_size] = element; //adds the element aka pushback!!!

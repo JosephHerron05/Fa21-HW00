@@ -15,30 +15,40 @@ using namespace std;
 int main() {
     Vector vec; //creates a vector  
     
+    //push back test
+    for(int i =0; i < 1000; i++){
+       vec.push_back(i); //pushes 1000 ints
+    }
+    cout << "The vector size after adding 1000 elements is " << vec.size() <<endl;
 
-  cout<< "Adding element" <<endl;
-  for(int i =0; i < 0; i++){
-    vec.push_back(i); //this loop will add 10 elements
+
+
+
+
+    //modify[] test
+    vec[0] = 9999; //first element in the arr
+    vec[999] = 8888; //1000th element in the arr
+    cout << "The first element is " << vec[0] <<" and the 100th element is " << vec[999] << endl;
+
+    
+    //test for using size() to control the bounds and only print the first ten elements 
+     cout<< "Adding element" <<endl;
+     for(int i = 0; i < vec.size() && i < 10 ; i++){
+       cout<<vec[i] << "  "; //this loop will add 10 elements
   }
-
-  cout << "Vector Size: " << vec.size() <<endl; //will print 10 elements
-  cout << "Vector Capacity: " << vec.capacity() <<endl; // should be at least 10 
+     cout <<endl;
 
 
-  cout << "Accessing elements using operator[]: " <<endl;
-  for(int i =0; i < vec.size(); i++){
-    cout << "Element " << i << ": " << vec[i] << endl;
-  }
+
+     //assignment test
+     Vector vec2;
+     vec2 = vec; //assign vec to Vec2;
+     cout << "The first element of Vec2 is: " << vec2[0] <<endl; 
 
 
-  //For the copy constructor
-  Vector vec_copy = vec;
-  cout << "Copied vector test: " <<  vec_copy.size() <<endl;
-
-
-  //Assignment operator test
-  Vector vec_ass;
-    vec_ass = vec;
-  cout << "Assigned vec size: " << vec_ass.size() <<endl;
+     //Copy constrcutoor test
+     Vector vec3 = vec; //copy constructor
+     cout << "After copy constructor, the first element of vec3 is: " <<vec3[0] <<endl;
+     
   return 0;
 }
