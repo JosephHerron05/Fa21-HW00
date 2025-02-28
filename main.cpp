@@ -14,7 +14,10 @@ using namespace std;
 
 int main() {
   cout << "Hello World" <<endl;
-  
+  int x = 1;
+  int y = 2;
+  int sum = x + y;
+  cout << sum <<endl;
   return 0;
 }
 
